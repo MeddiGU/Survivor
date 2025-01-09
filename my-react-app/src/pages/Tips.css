@@ -1,0 +1,56 @@
+.search-bar {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tips-container {
+  color: rgb(44, 67, 92);
+}
+
+.tips-list {
+  margin-top: 20px;
+  width: 96%;
+}
+
+.tip-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: rgb(44, 67, 92);
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.tip-title {
+  flex: 1;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.tip-content {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+}
